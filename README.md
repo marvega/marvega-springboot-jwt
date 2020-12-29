@@ -2,6 +2,21 @@
 
 This app uses spring boot, JWT and postgresql. In the root you'll find a postman collection that will help you with testing the app.
 
+## Install instructions
+1.- First download source code
+
+```
+git clone https://github.com/marvega/marvega-springboot-jwt.git
+```
+
+2.- Run docker container
+
+```
+docker-compose up
+```
+
+3.- Use postman collection to test.
+
 ## Postman
 Import the following postman collection
 
@@ -19,8 +34,3 @@ Requests
 > LogEntry: To see the entire endpoints log
 
 For further request details, please refer to the postman collection.
-
-## Run docker container with
-```
-docker-compose up
-```
