@@ -9,13 +9,18 @@ This app uses spring boot, JWT and postgresql. In the root you'll find a postman
 git clone https://github.com/marvega/marvega-springboot-jwt.git
 ```
 
-2.- Run docker container
+2.- Compile the app
+```
+./mvnw clean install
+```
+
+3.- Run docker container
 
 ```
 docker-compose up
 ```
 
-3.- Use postman collection to test.
+4.- Use postman collection to test.
 
 ## Postman
 Import the following postman collection
